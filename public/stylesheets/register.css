@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+
+.regissec{
+    text-align: center;
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(102, 99, 99, 0.5);
+    font-family: 'Ubuntu', sans-serif;
+    border-right: 2px solid black;
+   
+}
+
+.photosec{
+    background-image: url("/images/facebook1.jpg");
+    width: 70%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+.text1{
+    margin-top: 10px;
+    width:243px;
+    height: 25px;
+    padding: 4px;
+}
+.text2{
+    margin-top: 10px;
+    width:243px;
+    height: 25px;
+    padding: 4px;
+}
+.text3{
+    margin-top: 10px;
+    width:243px;
+    height: 25px;
+    padding: 4px;
+}
+.regis{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(4, 59, 161);
+    width: 245px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+.regis:hover{
+    cursor: pointer;
+    background-color: rgb(3, 48, 129);
+}
+
+.tolog{
+    margin-top: 10px;
+    text-decoration: none;
+}
